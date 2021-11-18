@@ -33,3 +33,11 @@
 * crear grupo de base de datos como ***DatabaseAdministrator*** nombre del grupo ***jdvpl-databases***
 * crear grupo de S3 seleccionar ***AmazonS3FullAccess*** nombre del grupo  ***jdvplg-s3***
 
+---
+
+### crear usuario
+
+* Seleccionar user y dar click crear usuario
+* nombre de usuario ****juanda****
+* -tipo de acceso-
+
