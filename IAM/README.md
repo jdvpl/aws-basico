@@ -39,13 +39,17 @@
 
 * Seleccionar user y dar click crear usuario
 * nombre de usuario ****juanda****
-* **tipo de acceso** es es para habilitar una ID clave de acceso y una clave secreta para el SDK, la cli y la API <Activar>
+* **tipo de acceso** es es para habilitar una ID clave de acceso y una clave secreta para el SDK, la cli y la API [Activar]
 
-* *** Acceso a la consola de administracion de AWS***
+* ***Acceso a la consola de administracion de AWS***
  * [x] access key
     * [x] contraseña generada automaticamente
         * [x] usuario debe crear una contraseña en el prozimo incio de sesion
 * Seleccionar el tipo o tipos de grupo al que va a pertenecer
 * añadir etiquetas con el que se va a identificar ese usuario
 * Crear usuario para grupo a la DB sin la la activacion de access Key
+
+### crear un rol
+
+* se crea un rol para poder acceder a un servicio imagenes en la carpeta IAM/roles
 
