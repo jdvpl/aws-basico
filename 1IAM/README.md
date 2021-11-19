@@ -85,3 +85,16 @@
 * seleccioanr virtual MFA y abrir google authenticator y seguir los pasos del qr
 * cerrar sesion y abrir de nuevo y colocar el codigo de MFA que dice la app
 
+
+### cloudWatch -->alerta de facturacion
+
+`https://us-east-2.console.aws.amazon.com/cloudwatch/home?region=us-east-2#`
+
+* seleccionar **in alarm**
+* seleccioanr metrica 
+* seleccionar regios N virginia
+* seleccionar facturacion
+* seleccionar cargo total estimado
+* seleccioanr USD
+* seleccionar metrica
+** tiene que estar habilitada N Virginia
