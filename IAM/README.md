@@ -75,3 +75,13 @@
 * Activar MFA
 * seleccionar virtual MFA
 * descargar app ***autenticador de google***
+
+
+### entrar en la consola con otro usuario y asignar MFA
+
+* iniciar sesion con un usuario diferente del root
+* ir a usuarios y seleccionar el usario que corresponda
+* seleccionar credenciales de seguridad y sino tiene MFA asignado darle administrar
+* seleccioanr virtual MFA y abrir google authenticator y seguir los pasos del qr
+* cerrar sesion y abrir de nuevo y colocar el codigo de MFA que dice la app
+
