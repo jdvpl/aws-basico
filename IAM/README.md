@@ -53,3 +53,17 @@
 
 * se crea un rol para poder acceder a un servicio imagenes en la carpeta IAM/roles
 
+### crear politicas
+* create policy
+* buscamos al servicio que necesitamos la politica
+* ***read*** seleccionamos los recursos y seleccionamos [x] ***cualquiera***
+* ***revisar politica***
+
+    * ### utilizar politica
+
+        * Crear grupo ***grupoS3ReadOnly***
+
+### contraseñas
+
+* **configuracion de cuenta** y seleccionar cambiar politica de contraseña 
+* [x] seleccionar todas las convengan 
