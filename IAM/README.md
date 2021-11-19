@@ -62,8 +62,16 @@
     * ### utilizar politica
 
         * Crear grupo ***grupoS3ReadOnly***
-
+---
 ### contraseñas
 
 * **configuracion de cuenta** y seleccionar cambiar politica de contraseña 
 * [x] seleccionar todas las convengan 
+
+---
+### activar acceso mediante doble factor
+
+* seleccionar addMFA
+* Activar MFA
+* seleccionar virtual MFA
+* descargar app ***autenticador de google***
