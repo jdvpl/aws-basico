@@ -49,3 +49,13 @@
 * Gastos por transferencia aceleradas (Datos en localizaciones locales)
 
   *S3 permite gfestionar el precio de cada fichero por separado, gracias al uso de etiquetas, que permiten disglosar los gastos por fichero, por ejemplo, para asignarlos a los  departamentos que lo usan. 
+
+
+---
+
+### Crear bucket
+
+* Se crea bucket jdvpl.bucket.imagenes
+* Se deja publico para toda la web
+* acceder al bucket
+* subir archivos y [x] conceder  acceso de lectura publico [x] entiendo riesgo
