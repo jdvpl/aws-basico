@@ -1,0 +1,7 @@
+archivo version 1
+
+este es el fichero ahora esta en la version 2
+
+ahora es la version 3
+
+lorem

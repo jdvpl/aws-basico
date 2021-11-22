@@ -59,3 +59,11 @@
 * Se deja publico para toda la web
 * acceder al bucket
 * subir archivos y [x] conceder  acceso de lectura publico [x] entiendo riesgo
+
+---
+
+### versionamiento buckets
+
+* cargar archivo 
+* hacer publico
+* para tener las versiones se carga de nuevo el archivo con el mismo nombre
