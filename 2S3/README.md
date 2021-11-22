@@ -67,3 +67,9 @@
 * cargar archivo 
 * hacer publico
 * para tener las versiones se carga de nuevo el archivo con el mismo nombre
+
+---
+### eliminar un bucket
+
+* primero se vacia el bucket
+* se procede a eliminar
