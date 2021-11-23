@@ -41,3 +41,13 @@
 ##### Optimizadas para almacenamiento:
 * MapReduce, sistemas de archivos distribuidos como HDFS, sistemas de archios de red, aplicaciones de procesamiento de datos, clusters de big datam bases de datos NoSQL, (Cassandra, MongoDb, Redis), aplicaciones de registro, etc.
 
+---
+
+## Crear servidor WEB com EC2
+
+* Lanzar instancias
+* filtrar capa gratuita !!**importante**
+* Seleccionar capa linux
+* Seleccionar t2 micro
+* reglas
+* clave de la instancia
