@@ -120,3 +120,26 @@ se crea un bucket privado
   * S3 Soporta puntos finales VPC ( VPC Endpoints) ( Para instancia VPC sin internet)
   * Los logs de acceso a S3 se pueden almacenar en otros buckets de S3 o enviar a AWS CloudTrails
   * Signed URL ( url firmadas): urls que son validad durante un perido breve de tiempo ( por ejemplo, para un servicio de video premium)
+
+---
+### Subir un sitio estatico en S3
+
+* Crear bucket publico
+* subir los archivos correspondientes
+* propiedades>sitios web estaticos habilitar
+* colocar en permisos lo siguiente
+
+`
+{
+  "Version":"2012-10-17",
+  "Statement":[
+    {
+      "Sid":"PublicRead",
+      "Effect":"Allow",
+      "Principal":"*",
+      "Action":["s3:GetObject","s3:GetObjectVersion"],
+      "Resource":["arn:aws:s3:::jdvpl.web/*"]
+    }
+    ]
+}
+`
