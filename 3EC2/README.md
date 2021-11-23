@@ -64,3 +64,26 @@
 * Luego de crear y guardar el archivo se copia la ip publica 
 * crear carpeta `mkdir php` luego crear archivo index.html `echo "<html><body><h1>Ola esta es otra pagina html </h1></body></html>" >> index.html`
 * Ip publica `http://34.207.66.27/`
+
+---
+
+### ELB
+#### Elastic Load Balancing => Blanceador de carga elastico
+* Distribuye automaticamente el trafico de aplicaciones entrantes a traves de varios destinos ( EC2, contenedores, direcciones IP y funciones Lambda )
+* Puede controlar la carga variable de trafico de su aplicacion en una unica zona o en varia zonas de disponibilidad
+* Hay tres tripos de balanceadores de carga que cuenta con el nivel necesario de alta disponibilidad, escalabilidad automatica y seguridad para que sus aplicaciones sean tolerantes a fallos.
+---
+
+### Tipos de balanceadores de carga
+* ***Balanceador de carga de aplicaciones:*** es el mas adecuado para el equilibrio de carga de trafico HTTP y HTTPS. Proporciona un direccionamiento de solicitudes avanzado dirigido a la entre de arquitecturas de aplicaciones modernas ( Microservicios y contenedores).
+* ***Balanceador de carga de red:*** Es el mas adecuado para equilibrar la carga de trafico del protocolo de control de transmision ( TCP) y de la seguridad de la capa de transporte (TLS) para que se requiere un rendimeinto extremo. Es capaz de controllar millones de solicitudes por segundo mientras mantiene una latencias( tiempos de respuesta) ultrabajas. Tambien se optimiza para controlar patrones de trafico repentinos y volatiles.
+* ***Balanceador de carga clasico:*** Proporciona equilibrio de carga basico en varias instancia de EC2 y fuinciona tanto en el nivel de solicitud como en el nivel de conexion.
+
+---
+### Crear balanceador de carga
+* Balanceador de aplicacion
+* Create
+* Colocar Nombre
+* Seleccionar todas las zonas para distribuir el trafico
+* Crear grupo para distribuir el trafico
+* Incluir instancia
