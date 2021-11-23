@@ -87,3 +87,15 @@
 * Seleccionar todas las zonas para distribuir el trafico
 * Crear grupo para distribuir el trafico
 * Incluir instancia
+---
+### Conectar a la instancia
+###### ver la lista de buckets desde la instancia
+
+* `aws configure` 
+* Crear usuario administrador copiar access key y secrete key ***usuario jdvpl*** tiene acceso a todo
+* Mostrar los buckets `aws s3 ls`
+* Crear bucket desde la consola `aws s3 mb s3://jdvpl.bucket.prueba`
+* Crear archivo `echo "estos es un fichero de pruebas creado desde la consola" > pruebas.txt`
+* Copiar archivo al bucket creado `aws s3 cp pruebas.txt s3://jdvpl.bucket.prueba`
+* Comandos de aws `https://aws.amazon.com/cli/`
+* Listar archivos que tiene el bucket ` aws s3 ls s3://jdvpl.bucket.prueba`
