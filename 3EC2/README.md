@@ -51,3 +51,21 @@
 * Seleccionar t2 micro
 * reglas
 * clave de la instancia
+* conectar instancia
+* ver consola
+* acceder a usuario root `sudo su`
+* INstalar apache `yum install httpd -y`
+* Iniciar apache `systemctl start httpd`
+* Verificar estado `systemctl status httpd`
+* Habilitar apache cuando reiniciemos la instancia `systemctl enable httpd`
+* Ir al directorio donde se guardan las paginas `cd /var/www/html`
+* Crear archivo html `nano index.html`
+* `Control X` para guardar y dar `Y` y enter
+* Luego de crear y guardar el archivo se copia la ip publica 
+* crear carpeta `mkdir php` luego crear archivo index.html `echo "<html>
+<body>
+<h1>Ola esta es otra pagina html </h1>
+</body>
+</html>" >> index.html`
+
+* Ip publica `http://34.207.66.27/`
