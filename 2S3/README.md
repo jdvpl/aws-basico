@@ -73,3 +73,26 @@
 
 * primero se vacia el bucket
 * se procede a eliminar
+
+---
+### aws S3 - encriptacion
+
+Hay cuatro metodos de encriptacion de objetos en aws S3
+
+* ***SSE-S3:***
+  * Encriptacion de objetos de S3 mediantes claves gestionadas por S3(AES-256)
+* ***SSE-KMS:***
+  * Utiliza KMS( Key Managment Service) para gestionar las claves de encriptacion
+* ***SSE-C:***
+  * Cuando el cliente es el que maneja las claves de  encriptacion
+* ***Encriptacion del lado del cliente:***
+  * El cliente ya envia los datos encriptados al servidor AWS
+
+---
+### encriptacion de S3
+
+se crea un bucket privado
+
+* elegir la de SSE-S3, en este caso amazon se encarga de administrar y gestionar el cifrado de lado del servidor
+* subir archivos y dejar la que viene por determinada
+* ##### crear bucket normal
