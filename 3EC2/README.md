@@ -62,10 +62,5 @@
 * Crear archivo html `nano index.html`
 * `Control X` para guardar y dar `Y` y enter
 * Luego de crear y guardar el archivo se copia la ip publica 
-* crear carpeta `mkdir php` luego crear archivo index.html `echo "<html>
-<body>
-<h1>Ola esta es otra pagina html </h1>
-</body>
-</html>" >> index.html`
-
+* crear carpeta `mkdir php` luego crear archivo index.html `echo "<html><body><h1>Ola esta es otra pagina html </h1></body></html>" >> index.html`
 * Ip publica `http://34.207.66.27/`
