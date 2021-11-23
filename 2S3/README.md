@@ -96,3 +96,27 @@ se crea un bucket privado
 * elegir la de SSE-S3, en este caso amazon se encarga de administrar y gestionar el cifrado de lado del servidor
 * subir archivos y dejar la que viene por determinada
 * ##### crear bucket normal
+
+---
+### seguridad S3
+
+* ***Seguridad basada en el usuario IAM:*** 
+  * Ploiticas Iam -permitir los accesos segun los permisos IAM de cada usuiario
+* Seguridad basada en el recurso
+  * Politicas de seguridad del bucket
+  * Object Access Control List (ACL)
+  * Bucket Access Control List (ACL)
+* ***Politicas de seguridad en el Bucket: ***
+  * Politicas basadas en JSON:
+    * ***Recursos:*** Bucket y Objetos
+    * ***Acciones:*** Conjunto de APIs (u operacion) que vas a permitir o denegar el acceso
+    * ***Efecto:*** Permitir o denegar
+    * ***Principal:*** La cuenta o el usuario a quien aplicar la politica
+* ***Caso de uso de las politicas del bucket:***
+  * Dar acceso publico a todo el bucket
+  * forzar a los objetos ser encriptados cuando se carguen en S3 (upload)
+  * Dar acceso al bucket a otra cuenta ( cuentas cruzadas)
+* ***Seguridad:***
+  * S3 Soporta puntos finales VPC ( VPC Endpoints) ( Para instancia VPC sin internet)
+  * Los logs de acceso a S3 se pueden almacenar en otros buckets de S3 o enviar a AWS CloudTrails
+  * Signed URL ( url firmadas): urls que son validad durante un perido breve de tiempo ( por ejemplo, para un servicio de video premium)
