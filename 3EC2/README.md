@@ -99,3 +99,11 @@
 * Copiar archivo al bucket creado `aws s3 cp pruebas.txt s3://jdvpl.bucket.prueba`
 * Comandos de aws `https://aws.amazon.com/cli/`
 * Listar archivos que tiene el bucket ` aws s3 ls s3://jdvpl.bucket.prueba`
+
+---
+### Crear instancia con servicio web php
+
+* instalar apache,php y mysql `yum install httpd php php-mysql -y`
+* Iniciar apache `systemctl start httpd`
+* Habilitar apache `systemctl enable httpd`
+* Estado apache `systemctl status httpd`
