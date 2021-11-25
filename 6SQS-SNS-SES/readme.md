@@ -26,3 +26,19 @@
 * **Amazon SNS es un servicio de mensajeria de publicacion/suscripcion, completamente administrada, de alta disponibilidad, completamente segura, que permite desacoplar microservicios, sistemas distribuidos y aplicaciones sin servidor.**
 1. **Mensajeria entre sistemas** permitiendo desacoplar publicadores de los suscriptores. Se utiliza para micrisoervicios, arquitectura distribuidas y aplicaciones sin servidor. Los suscriptores pueden ser funciones lambda, colas SQS y puntos de enlace HTTP(S).
 2. **Comunicacion a usuarios** mediante notificaciones a aplicaciones moviles, mensajes de texto a telefonos moviles y para realizar envios de correos electronicos.
+
+---
+
+## SES
+### Simple Email Service => Servicio de correo electronico
+
+* Amazon SES es un servicio de envio y recepcion de emails basado en la nube, dise►4ado para ayudar a los responsables de marketing digital y a los desarrolladores de aplicaciones, a enviar email de marketing, notificaciones y transacciones.
+* Amazon SES es un servicio fiables y rentable para empresas de todos los tamaños que usan el email para mantenerse en contacto con sus clientes.
+* Puede usar la interfaz SMTP o uno de los SDK de AWS para integrar Amazon SES directamente con sus aplicaciones actuales.
+* Amazon SES incluye caracteristicas como las tecnologias de flitrado de contenido, direcciones IP dedicadas a un panel de reputacion que ayuda a proteger y mejorar la reeputacion del remitente.
+* Mantener una buena reputacion asegura que sus emails lleguen a la bandeja de entrada de sus clientes.
+* El coste del servicio es muy bajo y si envia los emails desde EC2 tendra miles de envios gratuitos al mes.
+* Los emails de entrada pueden lanzar funciones lambda, notificaciones SNS o almacenarse en S3.
+---
+* Crear identidad
+* Email adress
