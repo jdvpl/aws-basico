@@ -30,10 +30,10 @@
     - Lanza un grupo adicional de instancia y despliega la nueva version en este nuevo grupo.
     - Mantiene la capacidad de procesamiento completa mientras duran los despliegues.
     - Si falla la actualizacion, debes volver a desplegar la version original.
-4 Inmutable:
+4. Inmutable:
     - Despliega la nueva version en un nuevo grupo de instancia con su propio grupo de autoescalado.
     - Cuando las nuevas instancias ya estan funcionando, se mueven a los grupos de autoescalado actuales.
     - Mantiene la capacidad de procesamiento completa mientas dura todo el proceso.
     - El impacto en caso de fallo ees menor, ya que solo requiere finalizar los grupos dee autoescalado nuevo.
     - Es la opcion mas adecuada para los sistemas en produccion criticos.
-    
+
