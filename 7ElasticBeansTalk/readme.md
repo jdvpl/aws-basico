@@ -37,3 +37,11 @@
     - El impacto en caso de fallo ees menor, ya que solo requiere finalizar los grupos dee autoescalado nuevo.
     - Es la opcion mas adecuada para los sistemas en produccion criticos.
 
+---
+
+### cargar archivos php
+
+* Crear aplicacion
+* colocarnombre
+* Cargar archivos zip php
+
