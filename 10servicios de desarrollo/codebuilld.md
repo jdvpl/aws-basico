@@ -30,3 +30,9 @@ phases:
 * Crear archivo buil para test
 * subir al repositorio
 * Reiniciar compilacion
+---
+### integracion de codeBuild con CodePipeline
+* ir a pipeline ( canalizacion ) y seleccionar
+* Editar
+* Seleccionar source y crear capa
+* Crear grupo de accion para integrar codeBuild
