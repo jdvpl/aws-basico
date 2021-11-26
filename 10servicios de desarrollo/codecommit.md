@@ -20,3 +20,11 @@
 * Crear repo
 * Nombre repo
 * Subir archivos 
+---
+### habilitar usuario por ssh y https para clonar repositorio
+* buscar usuario en IAM
+* Seleccionar usuario
+* Credenciales de seguridad
+* Si al clonar repositorio sale error primero configurar usuario con las credenciales `aws configure`
+* generar credenciales
+* `git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/enjed` credenciales: `juanda-at-723687938033 ====> 5ZrkapeosD560IE7W3JIzCiYOK5KomG1LKZPfI9u+mU=`
