@@ -32,3 +32,10 @@
 * Seleccionar redis
 * Nombre, tipo
 * Crear grupo de subnet
+---
+### Estrategias de implementacion
+* ElastiCache es recomendable para aplicaciones con mucha carga de trabajo de lecturas a una base de datos, como redes sociales, juegos, portales de pregunta-respuesta.
+* ElastiCache tambien utiliza aplicaciones con una carga de trabajo muy intensa en computacion, como por ejemplo, los motores de recomendacion de prodcutos.
+* Hay dos estrategias para implementar una cache.
+* Lazy Loading. => solo la actualiza cuando es necesario
+* Write Through  => actualiza la cache cada vez que actualiza la BD
