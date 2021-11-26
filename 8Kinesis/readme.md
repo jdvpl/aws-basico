@@ -20,3 +20,12 @@
 ### AWS Kinesis Data Analytics
 * Amazon Kinesis data analytics ofrece la manera mas sencilla de procesar transmisiones de datos en tiempo real con SQL o Java sin tener que aprender a usar lenguajes de programacion ni marcos de procesamientos nuevos.
 
+### Comandos
+
+## `https://www.udemy.com/course/curso-amazon-aws-desarrollo/learn/lecture/17988213#overview`
+* `aws configure` usario\
+* `aws kinesis list-streams`
+* `aws kinesis describe --stream-name mi-primer-stream`
+* `aws kinesis put-record --stream-name -mi-primer-stream --data "mi primer mensaje" --partition-key usuario1`
+* `aws kinesis get-shard-iterator --stream-name mi-primer-stream -shard-id -shardId-000000000000 --shard-iterator-type TRIM-HORIZON`
+* `aws kinesis get-recors --shard-iterator is`
