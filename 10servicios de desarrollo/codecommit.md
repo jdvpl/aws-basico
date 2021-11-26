@@ -15,3 +15,8 @@
 * Puede implementar flujes de trabajo que incluyan de forma predeterminada revisiones de codigo y comentaios, y controlar quien puede modificar ramificaciones especificas.
 * Mantiene los repositorios cerca de los entorno de compilacion, pruebas y produccion de la nube de AWS.
 * Admite todos los comando Git y funciona con las herramientas de Git Existentes
+---
+### Crear repositorio
+* Crear repo
+* Nombre repo
+* Subir archivos 
