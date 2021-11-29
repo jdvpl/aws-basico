@@ -42,3 +42,5 @@
 * Se deja las demas cosas por defecto
 * ir a verificar la instancia
 * copiar Ip
+
+### Code Star
