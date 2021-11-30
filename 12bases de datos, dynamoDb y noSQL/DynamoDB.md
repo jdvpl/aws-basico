@@ -58,3 +58,9 @@
     - Se configura deacuerdo a los costos que se configuran
 * #### Bajo demanda:
     - cobrara deacuerdo por lo que utilicemos AWS se encarga de gestionar la capacidad <=== forma eficiente
+
+### Dax
+* Crea una cache por delante de articulos donde los usuarios haran consultas en tiempos menores
+* reduccion de tiempo se crea cache acceso a memoria antes de la tabla
+* Se crea con los parametro en la caprta /Dax
+* de resto por defecto
