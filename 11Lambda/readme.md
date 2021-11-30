@@ -47,5 +47,9 @@
 ### tiemout
 * es para controlar el codigo si dura mas de lo establecido dara un error
 
-### monitoreo
+### monitoreo xray y cloudwatch
 * `https://us-east-2.console.aws.amazon.com/xray/home?region=us-east-2#/service-map`
+
+### version y alias
+* versiones no se pueden modificar
+* Alias apunta a una version o a mas
