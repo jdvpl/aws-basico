@@ -62,3 +62,15 @@
 * Ir a configuracion y en permisos editar
 * Agregar politicas de S3 y Xrayy full access
 * Habilitar XRay
+
+### practica con BD
+* para conectar a la base de datos es bueno colocarlo por fuera del lambda_handler con un time out para que se demore menos
+
+## Lambda EDGE
+* Lambda edge es una caracteristica de Amazon CloudFront que permite ejecutar el codigo mas cerca de los usuarios de la aplicacion, lo cual mejora el rendimiento y reduce la latencia.
+* No es necesario aprovisionar ni administrar la infraestructura en diversas partes del mundo.
+* Solo pagara por el tiempo de computracion que consuma.
+* No se cobra nada cuando el codigo no se esta ejecutando.
+* Lambda Edge permite enriquecer las aplicaciones web al distribuirlas globalmente y mejhorar su rendimiento, todo ello, sin asdministracion de servidores.
+* Lambda Edge ejecuta el codigo en respuesta a eventos generados por la red de entra de contenido (CDN) de Amazon CloudFront.
+* Basta con cargar su condigo en AWS Lambda, que se encarga de todo lo necesario para ejecutar y ajustar la escala del codigo con alta disponibilidad en la ubicacion de AWS mas cercana al usuario final.
