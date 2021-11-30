@@ -53,3 +53,12 @@
 ### version y alias
 * versiones no se pueden modificar
 * Alias apunta a una version o a mas
+
+
+### Librerias externas
+* Crear funcion desde cero con Node.js
+* Comprimir archivos en zip
+* Subir desde .zip
+* Ir a configuracion y en permisos editar
+* Agregar politicas de S3 y Xrayy full access
+* Habilitar XRay

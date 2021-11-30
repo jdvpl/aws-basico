@@ -1,2 +1,4 @@
 *.csv
 *.pem
+*.zip
+node_modules/
