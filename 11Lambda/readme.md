@@ -46,3 +46,6 @@
 * Crear prueba
 ### tiemout
 * es para controlar el codigo si dura mas de lo establecido dara un error
+
+### monitoreo
+* `https://us-east-2.console.aws.amazon.com/xray/home?region=us-east-2#/service-map`
