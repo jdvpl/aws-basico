@@ -50,3 +50,11 @@
 - ###### Autoescalado
     - Permite aumentar el nuemro de unidades de capacidad de escritura y de lectura de forma dinamica.
 * Si no usamos autoescalado y sobrepasamos nuestras capacidades de lectura o escritura, obtendremos este error "PorvisionedThroughputExceededExceptions", que significa "Excepcion al exceder el rendimeinto prvosionado"
+
+
+### Capacidad
+* es la capicidad de lectura y escritura
+*  ##### Aprovisionado
+    - Se configura deacuerdo a los costos que se configuran
+* #### Bajo demanda:
+    - cobrara deacuerdo por lo que utilicemos AWS se encarga de gestionar la capacidad <=== forma eficiente
