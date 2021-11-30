@@ -64,3 +64,22 @@
 * reduccion de tiempo se crea cache acceso a memoria antes de la tabla
 * Se crea con los parametro en la caprta /Dax
 * de resto por defecto
+
+### capturar actividades de la base de datos 
+
+* habilitar flujo
+* crear desencadenador
+* Crear rol
+* Crear funcion lambda con node
+* `console.log("Cargando funcion");
+exports.handler = async (event, context) => {
+    // TODO implement
+    for (const record of event.Records) {
+        console.log(record.eventID)
+        console.log(record.eventName)
+        console.log('DynamoDB record: %j ', record.dynamodb);
+    }
+    return `Proceso exitosamente  ${event.Records.length} registros`
+};`
+* se crea la funcion automaticamente
+
