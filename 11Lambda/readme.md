@@ -42,4 +42,7 @@
 
 #### Laboratorio
 * Crear funcion
-* Utilizar un proyecto
+* Utilizar un proyecto de node
+* Crear prueba
+### tiemout
+* es para controlar el codigo si dura mas de lo establecido dara un error
