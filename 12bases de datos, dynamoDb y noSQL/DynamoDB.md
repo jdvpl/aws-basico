@@ -111,3 +111,5 @@ exports.handler = async (event, context) => {
 * `aws dynamodb scan --table-name articles --max-items 2 --starting-token eyJFeGNsdXNpdmVTdGFydEtleSI6IG51bGwsICJib3RvX3RydW5jYXRlX2Ftb3VudCI6IDJ9`
 * insertar nuevo elemento
 * `aws dynamodb put-item --table-name articles --item '{"id_user": {"N":"3"}, "content": {"S": "content from command lines"}, "id_art":{"N":"2"}}'`
+* cargar desde json
+* `aws dynamodb put-item --table-name articles --item file://data.json`

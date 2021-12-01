@@ -1,0 +1,11 @@
+{
+    "id_user": {
+        "N": "3"
+    },
+    "content": {
+        "S": "content from command lines"
+    },
+    "id_art": {
+        "N": "2"
+    }
+}
