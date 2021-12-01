@@ -30,3 +30,9 @@
 * crear apo rest publica
 * crear metodo get
 * crear funcion lambda
+
+### deploy
+* crear estapa
+* `https://tmlsmu4r07.execute-api.us-east-2.amazonaws.com/desarrollo` <=== api
+* `https://tmlsmu4r07.execute-api.us-east-2.amazonaws.com/desarrollo/jdvpl` <= recurso
+* `https://tmlsmu4r07.execute-api.us-east-2.amazonaws.com/produccion` <== prodccion
