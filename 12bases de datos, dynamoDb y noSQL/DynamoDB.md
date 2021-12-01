@@ -113,3 +113,14 @@ exports.handler = async (event, context) => {
 * `aws dynamodb put-item --table-name articles --item '{"id_user": {"N":"3"}, "content": {"S": "content from command lines"}, "id_art":{"N":"2"}}'`
 * cargar desde json
 * `aws dynamodb put-item --table-name articles --item file://data.json`
+
+### seguridad 
+
+* Disponibilidad de puntos finales VPC para acceder a DynamoDB sin internet.
+* Control de acceso controlado por IAM
+* Encriptacion en reposo usando KMS
+* Encriptacion en transito usando SSL/TLS
+* Puntos de recuperacion y backups en ell tiempo sin impacto en el rendimiento.
+* Opcion de tablas globales multi-region, replicadas y con alto rendimiento.
+* Servicio de migracion desde otras bases de datos ( Mongo, Oracle, MySQL)
+* Posibilidad de ejecutar DynamoDB en tu ordenador para temas de desarrollo.
