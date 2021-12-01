@@ -83,3 +83,31 @@ exports.handler = async (event, context) => {
 };`
 * se crea la funcion automaticamente
 
+### AWS DZ, Amazon DynamoDb Accelerator
+
+* AWS DAX es una cache en memoria completamente administrada para DynamoDB
+* Reduce los tiempos de respuesta de DynamoDB de milisegundos a microsegundos.
+* DAX realiza todo el arduo trabajo necesario para aumentar la aceleracion en memoria de sus tablas DynamoDB, sin necesidad de que los desarrolladores administren la invalidacion de cache el rellenado de datos o la adminsitracion de clusters.
+* DAX tiene tiempos de respuesta en microsegundos para millones de peticiones por segundo para cargas de trabajo de lectura enormes.
+* DAX se integra completamente con los servicios de AWS para mejorar la seguridad.
+* DAX se puede utilizar IAM para asignar credenciales de seguridad unicas a cada usuario y controlar el acceso de cada usuario a los servicios y recursos.
+* DAX es muy escalable, puede comenzar con una cluster de 3 nodos y a continuacion, añadir capacidad agregando nodos adicionales.
+* Con DAX, sus aplicaciones se mantienen rapidas y con alta capacidad de respuestas, incluso cuando un evento popular o noticia, dirige altos volumenes sin precedentes hacia ellas, sin necesidad de ningun ajuste.
+
+
+### conectar por consola
+* crear usuario con rol administrador y conectar
+* `aws configure`
+* `aws dynamodb list-tables`
+* ver elementos de una tabla
+* `aws dynamodb scan --table-name articles`
+* Mostrar columnas solo por unas
+* `aws dynamodb scan --table-name articles --projection-expression "is_user, content"`
+* buscar por usuario
+* `aws dynamodb scan --table-name articles --filter-expression "id_user = :u" --expression-attribute-values '{ ":u" : {"N": "2"}}'`
+* listar los primeros 3
+* `aws dynamodb scan --table-name articles --max-items 2`
+* buscar siguiente limite con el token que da la consulta anterior
+* `aws dynamodb scan --table-name articles --max-items 2 --starting-token eyJFeGNsdXNpdmVTdGFydEtleSI6IG51bGwsICJib3RvX3RydW5jYXRlX2Ftb3VudCI6IDJ9`
+* insertar nuevo elemento
+* `aws dynamodb put-item --table-name articles --item '{"id_user": {"N":"3"}, "content": {"S": "content from command lines"}, "id_art":{"N":"2"}}'`
