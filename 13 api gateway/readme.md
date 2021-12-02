@@ -36,3 +36,11 @@
 * `https://tmlsmu4r07.execute-api.us-east-2.amazonaws.com/desarrollo` <=== api
 * `https://tmlsmu4r07.execute-api.us-east-2.amazonaws.com/desarrollo/jdvpl` <= recurso
 * `https://tmlsmu4r07.execute-api.us-east-2.amazonaws.com/produccion` <== prodccion
+
+### mapping en xml
+* `<xml>
+    <respuesta>
+        <body>$inputRoot.body</body>
+        <statusCode>$inputRoot.statusCode</statusCode>
+    </respuesta>
+</xml>`
