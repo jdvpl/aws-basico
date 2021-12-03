@@ -8,3 +8,4 @@
 * instalar `yum install httpd php php-mysql -y`
 * crear archivo conexion.php
 * ruta `jdvpldatabaserds.ctdwaisyi9yj.us-east-1.rds.amazonaws.com`
+* autoarranca la instancia `chkconfig httpd on`
